@@ -13,6 +13,7 @@ Yogyakarta terkenal sebagai kota gudeg, banyak warung gudeg yang ada di kota ini
 7.	Class App adalah class main tempat mencoba dan menjalankan program.
 
 Contoh:
+
 	Makanan ays = new AyamSuwir(new Telor1(new NasiGudeg()));
 	System.out.println("Makanan: "+ays.getNama());
 	System.out.println("Total: "+ays.getHarga());
@@ -22,20 +23,24 @@ Contoh:
 	System.out.println("Total: "+ba.getHarga());
 
 Maka outputnya adalah:
+
 	Makanan: nasi gudeg telor 1 ayam suwir
 	Total: 15000
 	Makanan: bubur gudeg ayam suwir
 	Total: 10000
 
 Keterangan:
+
 	Harga 15000 adalah dari 5000 (nasi gudeg) + 4000 (telor1) dan 6000 (dari ayam suwir)
 	Harga 10000 adalah dari 4000 (bubur gudeg) + 6000 (dari ayam suwir)
 
 Tambahkan 1 menu lagi yaitu Krecek dengan harga 3500!  Cobalah:
+
 	Makanan bak = new Telor1(new Krecek(new BuburGudeg()));
 	System.out.println("Makanan: "+bak.getNama());
 	System.out.println("Total: "+bak.getHarga());
 
 Output: 
+
 	Makanan: bubur gudeg krecek telor 1
 	Total: 11500
