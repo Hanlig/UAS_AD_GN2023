@@ -4,7 +4,7 @@ Buatlah sebuah aplikasi sederhana untuk menambah dan menampilkan data parkir mot
 2. Tampilkan Data
 3. Hitung Total Pendapatan
 
-Pada bagian Tambah Data aplikasi akan meminta pengguna untuk memasukan n buah data parkir baru.  Tabel parkir harus menyimpan informasi: id_pakir (int), no_plat (string), lama_detik (integer), harga (integer).  Id_pakir menggunakan auto_increment, lama_detik dalam satuan detik, harga dihitung otomatis, per jam Rp. 2000, lebih dari 1 jam dibulatkan ke atas. Database dapat dibuat SQLite saja.
+Pada bagian Tambah Data aplikasi akan meminta pengguna untuk memasukan <strong>n buah data</strong> parkir baru.  Tabel parkir harus menyimpan informasi: id_pakir (int), no_plat (string), lama_detik (integer), harga (integer).  Id_pakir menggunakan <strong>auto_increment</strong>, lama_detik dalam satuan detik, harga dihitung otomatis, per jam Rp. 2000, lebih dari 1 jam dibulatkan ke atas. Database dapat dibuat SQLite saja.  <strong>Saat menambah data otomatis juga mengisi kolom harga dengan dihitung berdasarkan lama_detik dan tarif per jamnya<strong>.  Untuk Id_parkir juga tidak perlu diinput karena sudah auto_increment.
 
 Contoh input program:
 
