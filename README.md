@@ -6,7 +6,6 @@ Waktu: 2 jam
 Kerjakan soal-soal ini agar mencapai total 100 poin. Perhatikan poin penilaian di setiap soal yang tersedia.  Semua kode program per soal harus diunggah ke Github Classroom yang sudah disediakan.
 
 TULISKAN pada README.MD ini:
-
   NIM:________
   NAMA:_______
   Mengerjakan  No: 
