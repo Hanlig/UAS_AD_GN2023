@@ -1,4 +1,5 @@
-# [BOBOT 30 – LAMPU HIAS JAVA IO] Pak Anton memiliki tiga lampu hias. Setiap lampu akan menyala setiap rentang waktu tertentu selama satu detik kemudian mati lagi. Lampu pertama menyala setiap rentang waktu P detik, lampu kedua menyala setiap rentang waktu Q detik, sedangkan lampu ketiga menyala setiap rentang waktu R detik. Di awal, ketiga lampu tersebut menyala secara bersamaan. Pak Anton bertanya-tanya, kapan lagi ketiga lampu tersebut akan menyala bersamaan? 
+# [BOBOT 30 – LAMPU HIAS JAVA IO] 
+Pak Anton memiliki tiga lampu hias. Setiap lampu akan menyala setiap rentang waktu tertentu selama satu detik kemudian mati lagi. Lampu pertama menyala setiap rentang waktu P detik, lampu kedua menyala setiap rentang waktu Q detik, sedangkan lampu ketiga menyala setiap rentang waktu R detik. Di awal, ketiga lampu tersebut menyala secara bersamaan. Pak Anton bertanya-tanya, kapan lagi ketiga lampu tersebut akan menyala bersamaan? 
 
 # Format Masukan:
 	Baris pertama berisi sebuah tiga buah bilangan P, Q, R. Baris berikutnya berisi sebuah bilangan bulat positif N, menyatakan banyaknya pertanyaan Pak Dengklek. N buah baris berikutnya berisi masing-masing sebuah bilangan bulat positif T, menyatakan waktu dalam detik setelah ketiga lampu dinyalakan.
