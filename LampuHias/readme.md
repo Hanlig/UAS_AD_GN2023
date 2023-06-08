@@ -9,9 +9,9 @@ Pak Anton memiliki tiga lampu hias. Setiap lampu akan menyala setiap rentang wak
 	Contoh:
 	Input	Output
 	4 6 9	TIDAK
-	4		YA
-	10		TIDAK
-	36		TIDAK
+	4	YA
+	10	TIDAK
+	36	TIDAK
 	90
 	100
 
