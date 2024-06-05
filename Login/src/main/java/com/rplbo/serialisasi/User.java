@@ -4,21 +4,28 @@ import java.io.Serializable;
 
 public class User implements Serializable {
     private String username;
-    private transient String password = "123456";
-    public User(String username,String password){
-        //konstruktor biasa, simpan username dan password
+    private transient String password;
 
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
-    public void ubahPassword(String password){
-        //Password harus berbeda dari defaultnya
-
+    public void ubahPassword(String newPassword) {
+        if (!"123456".equals(newPassword)) {
+            this.password = newPassword;
+        }
     }
 
-    public void doLogin(){
-        //di hard-code saja passwordnya
-        //password user1 = "rahasia"
-        //password user2 = "password"
-        //jika berhasil output "Berhasil Login"
+    public boolean doLogin(String inputPassword) {
+        if (this.password.equals(inputPassword)) {
+            System.out.println("Berhasil Login");
+            return true;
+        } else {
+            System.out.println("Gagal Login");
+            return false;
+        }
     }
+
+    // Getters and setters if needed
 }

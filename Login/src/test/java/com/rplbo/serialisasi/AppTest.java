@@ -1,20 +1,26 @@
 package com.rplbo.serialisasi;
 
-import static org.junit.Assert.assertTrue;
-
+import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class AppTest {
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void testUserLoginSuccess() {
+        User user = new User("userTester", "rahasia123");
+        Assert.assertTrue("Login harus berhasil", user.doLogin("rahasia123"));
+    }
+
+    @Test
+    public void testUserLoginFail() {
+        User user = new User("userTester", "rahasia123");
+        Assert.assertFalse("Login harus gagal", user.doLogin("salahPassword"));
+    }
+
+    @Test
+    public void testChangePasswordAndLogin() {
+        User user = new User("userTester", "rahasia123");
+        user.ubahPassword("passwordBaru");
+        Assert.assertTrue("Login dengan password baru harus berhasil", user.doLogin("passwordBaru"));
     }
 }
